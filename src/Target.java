@@ -6,21 +6,31 @@ public class Target {
 
         System.out.println("Target JVM Started");
 
+        Runtime.getRuntime().addShutdownHook(
+                new Thread(() -> {
+                    System.out.println("Shutdown hook activated, performing cleanup tasks");
+                })
+        );
+
         while (true) {
 
-            // Low allocation
+            System.out.println("PHASE: NORMAL");
             for (int i = 0; i < 100_000; i++) {
                 sink = new byte[1024];
             }
+            Thread.sleep(3000);
 
-            Thread.sleep(1000);
-
-            // High allocation
-            for (int i = 0; i < 1_000_000; i++) {
+            System.out.println("PHASE: HIGH ALLOCATION");
+            for (int i = 0; i < 5_000_000; i++) {
                 sink = new byte[1024];
             }
+            Thread.sleep(3000);
 
-            Thread.sleep(1000);
+            System.out.println("PHASE: EXTREME ALLOCATION");
+            for (int i = 0; i < 20_000_000; i++) {
+                sink = new byte[1024];
+            }
+            Thread.sleep(3000);
         }
     }
 }
