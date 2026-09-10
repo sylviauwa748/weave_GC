@@ -46,10 +46,6 @@ public final class Target {
         }
     }
 
-    // Fixed, deterministic schedule: phase -> number of ticks to run in that phase.
-    // One tick = one loop iteration. Tick *count* is deterministic; tick wall-clock
-    // duration is not (it depends on the host), and that is an honest, expected
-    // property of "externally observable behavior."
     private static final Phase[] PHASE_ORDER = { Phase.NORMAL, Phase.HIGH, Phase.EXTREME };
     private static final int TICKS_PER_PHASE = 400;
     private static final long TICK_SLEEP_MILLIS = 50; // nominal; not guaranteed by the JVM
@@ -66,12 +62,6 @@ public final class Target {
                 + " version=" + System.getProperty("java.version"));
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            // This only runs on a "graceful" termination path: normal exit,
-            // Ctrl-C / SIGTERM, or System.exit(). It does NOT run on SIGKILL
-            // (kill -9) or a JVM crash. That asymmetry is the point: Test 2
-            // (Target failure) should show observers a DIFFERENT signature
-            // for "SIGTERM while healthy" vs "SIGKILL" vs "crash", and this
-            // hook is how we mark the graceful case on the Target side.
             shuttingDown.set(true);
             log("TARGET_SHUTDOWN_HOOK pid=" + pid + " phaseAtShutdown=" + currentPhase.get());
         }, "target-shutdown-hook"));
