@@ -1,0 +1,79 @@
+2026-09-18T10:54:17.757Z OS_OBSERVER_START pid=35007 intervalMs=1000 sampleCount=0 euid=501 (euid==0 means running as root/sudo)
+2026-09-18T10:54:17.758Z OS_SAMPLE_SYSTEM_VM idx=0 freePages=5282 activePages=128267 inactivePages=125704 wirePages=104076 faults=4082540847 pageins=128801830 pageouts=2238470 loadavg1=8.27 loadavg5=4.38 loadavg15=3.59
+2026-09-18T10:54:17.758Z OS_SAMPLE_PROC_STATE idx=0 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:17.758Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=0 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:18.763Z OS_SAMPLE_SYSTEM_VM idx=1 freePages=5515 activePages=126967 inactivePages=124249 wirePages=104620 faults=4082562792 pageins=128801995 pageouts=2238471 loadavg1=8.27 loadavg5=4.38 loadavg15=3.59
+2026-09-18T10:54:18.763Z OS_SAMPLE_PROC_STATE idx=1 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:18.763Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=1 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:19.768Z OS_SAMPLE_SYSTEM_VM idx=2 freePages=5559 activePages=133289 inactivePages=125760 wirePages=96884 faults=4082564695 pageins=128801998 pageouts=2238471 loadavg1=8.27 loadavg5=4.38 loadavg15=3.59
+2026-09-18T10:54:19.768Z OS_SAMPLE_PROC_STATE idx=2 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:19.768Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=2 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:20.769Z OS_SAMPLE_SYSTEM_VM idx=3 freePages=4776 activePages=131163 inactivePages=129028 wirePages=96838 faults=4082568972 pageins=128802029 pageouts=2238471 loadavg1=8.27 loadavg5=4.38 loadavg15=3.59
+2026-09-18T10:54:20.769Z OS_SAMPLE_PROC_STATE idx=3 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:20.769Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=3 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:21.770Z OS_SAMPLE_SYSTEM_VM idx=4 freePages=4376 activePages=128678 inactivePages=127004 wirePages=101937 faults=4082574169 pageins=128802078 pageouts=2238472 loadavg1=8.27 loadavg5=4.38 loadavg15=3.59
+2026-09-18T10:54:21.770Z OS_SAMPLE_PROC_STATE idx=4 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:21.770Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=4 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:22.775Z OS_SAMPLE_SYSTEM_VM idx=5 freePages=6101 activePages=133305 inactivePages=127795 wirePages=96881 faults=4082576692 pageins=128802083 pageouts=2238472 loadavg1=7.68 loadavg5=4.33 loadavg15=3.57
+2026-09-18T10:54:22.775Z OS_SAMPLE_PROC_STATE idx=5 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:22.775Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=5 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:23.780Z OS_SAMPLE_SYSTEM_VM idx=6 freePages=4856 activePages=132455 inactivePages=130427 wirePages=96866 faults=4082579630 pageins=128802213 pageouts=2238472 loadavg1=7.68 loadavg5=4.33 loadavg15=3.57
+2026-09-18T10:54:23.780Z OS_SAMPLE_PROC_STATE idx=6 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:23.780Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=6 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:24.785Z OS_SAMPLE_SYSTEM_VM idx=7 freePages=4371 activePages=133045 inactivePages=131350 wirePages=96853 faults=4082585567 pageins=128802218 pageouts=2238474 loadavg1=7.68 loadavg5=4.33 loadavg15=3.57
+2026-09-18T10:54:24.785Z OS_SAMPLE_PROC_STATE idx=7 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:24.785Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=7 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:25.790Z OS_SAMPLE_SYSTEM_VM idx=8 freePages=4071 activePages=134451 inactivePages=132264 wirePages=94948 faults=4082586334 pageins=128802220 pageouts=2238474 loadavg1=7.68 loadavg5=4.33 loadavg15=3.57
+2026-09-18T10:54:25.790Z OS_SAMPLE_PROC_STATE idx=8 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:25.791Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=8 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:26.791Z OS_SAMPLE_SYSTEM_VM idx=9 freePages=4321 activePages=132496 inactivePages=131531 wirePages=97008 faults=4082588115 pageins=128802221 pageouts=2238486 loadavg1=7.68 loadavg5=4.33 loadavg15=3.57
+2026-09-18T10:54:26.791Z OS_SAMPLE_PROC_STATE idx=9 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:26.791Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=9 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:27.796Z OS_SAMPLE_SYSTEM_VM idx=10 freePages=4201 activePages=132742 inactivePages=131675 wirePages=96821 faults=4082588880 pageins=128802232 pageouts=2238486 loadavg1=7.39 loadavg5=4.32 loadavg15=3.58
+2026-09-18T10:54:27.796Z OS_SAMPLE_PROC_STATE idx=10 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:27.796Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=10 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:28.798Z OS_SAMPLE_SYSTEM_VM idx=11 freePages=4161 activePages=133188 inactivePages=131862 wirePages=96368 faults=4082591964 pageins=128802422 pageouts=2238486 loadavg1=7.39 loadavg5=4.32 loadavg15=3.58
+2026-09-18T10:54:28.798Z OS_SAMPLE_PROC_STATE idx=11 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:28.798Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=11 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:29.802Z OS_SAMPLE_SYSTEM_VM idx=12 freePages=4167 activePages=135884 inactivePages=134844 wirePages=90632 faults=4082613524 pageins=128802427 pageouts=2238567 loadavg1=7.39 loadavg5=4.32 loadavg15=3.58
+2026-09-18T10:54:29.802Z OS_SAMPLE_PROC_STATE idx=12 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:29.802Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=12 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:30.803Z OS_SAMPLE_SYSTEM_VM idx=13 freePages=4467 activePages=135805 inactivePages=134354 wirePages=90594 faults=4082617172 pageins=128802427 pageouts=2238569 loadavg1=7.39 loadavg5=4.32 loadavg15=3.58
+2026-09-18T10:54:30.803Z OS_SAMPLE_PROC_STATE idx=13 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:30.803Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=13 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:31.808Z OS_SAMPLE_SYSTEM_VM idx=14 freePages=4495 activePages=142005 inactivePages=140656 wirePages=90580 faults=4082651872 pageins=128802441 pageouts=2238571 loadavg1=7.39 loadavg5=4.32 loadavg15=3.58
+2026-09-18T10:54:31.808Z OS_SAMPLE_PROC_STATE idx=14 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:31.808Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=14 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:32.813Z OS_SAMPLE_SYSTEM_VM idx=15 freePages=4181 activePages=140338 inactivePages=138824 wirePages=93495 faults=4082668098 pageins=128802501 pageouts=2238574 loadavg1=6.96 loadavg5=4.28 loadavg15=3.57
+2026-09-18T10:54:32.813Z OS_SAMPLE_PROC_STATE idx=15 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:32.813Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=15 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:33.818Z OS_SAMPLE_SYSTEM_VM idx=16 freePages=4201 activePages=141521 inactivePages=140199 wirePages=89858 faults=4082670879 pageins=128802513 pageouts=2238583 loadavg1=6.96 loadavg5=4.28 loadavg15=3.57
+2026-09-18T10:54:33.818Z OS_SAMPLE_PROC_STATE idx=16 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:33.818Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=16 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:34.823Z OS_SAMPLE_SYSTEM_VM idx=17 freePages=4090 activePages=141288 inactivePages=140221 wirePages=89841 faults=4082673115 pageins=128802524 pageouts=2238583 loadavg1=6.96 loadavg5=4.28 loadavg15=3.57
+2026-09-18T10:54:34.824Z OS_SAMPLE_PROC_STATE idx=17 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:34.824Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=17 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:35.829Z OS_SAMPLE_SYSTEM_VM idx=18 freePages=4404 activePages=136304 inactivePages=135036 wirePages=96193 faults=4082678443 pageins=128802726 pageouts=2238583 loadavg1=6.96 loadavg5=4.28 loadavg15=3.57
+2026-09-18T10:54:35.829Z OS_SAMPLE_PROC_STATE idx=18 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:35.829Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=18 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:36.834Z OS_SAMPLE_SYSTEM_VM idx=19 freePages=4437 activePages=134835 inactivePages=133449 wirePages=96155 faults=4082681107 pageins=128802755 pageouts=2238584 loadavg1=6.96 loadavg5=4.28 loadavg15=3.57
+2026-09-18T10:54:36.834Z OS_SAMPLE_PROC_STATE idx=19 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:36.834Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=19 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:37.839Z OS_SAMPLE_SYSTEM_VM idx=20 freePages=4532 activePages=134594 inactivePages=133087 wirePages=96192 faults=4082684460 pageins=128802757 pageouts=2238584 loadavg1=6.48 loadavg5=4.23 loadavg15=3.55
+2026-09-18T10:54:37.839Z OS_SAMPLE_PROC_STATE idx=20 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:37.839Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=20 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:38.843Z OS_SAMPLE_SYSTEM_VM idx=21 freePages=4062 activePages=104865 inactivePages=103519 wirePages=106398 faults=4082782401 pageins=128802786 pageouts=2238596 loadavg1=6.48 loadavg5=4.23 loadavg15=3.55
+2026-09-18T10:54:38.844Z OS_SAMPLE_PROC_STATE idx=21 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:38.844Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=21 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:39.847Z OS_SAMPLE_SYSTEM_VM idx=22 freePages=6504 activePages=96597 inactivePages=93924 wirePages=121923 faults=4082875360 pageins=128802803 pageouts=2238599 loadavg1=6.48 loadavg5=4.23 loadavg15=3.55
+2026-09-18T10:54:39.847Z OS_SAMPLE_PROC_STATE idx=22 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:39.847Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=22 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:40.851Z OS_SAMPLE_SYSTEM_VM idx=23 freePages=5541 activePages=101188 inactivePages=99075 wirePages=118060 faults=4082898985 pageins=128802989 pageouts=2238600 loadavg1=6.48 loadavg5=4.23 loadavg15=3.55
+2026-09-18T10:54:40.851Z OS_SAMPLE_PROC_STATE idx=23 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:40.851Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=23 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:41.853Z OS_SAMPLE_SYSTEM_VM idx=24 freePages=5778 activePages=101372 inactivePages=98917 wirePages=119848 faults=4082915252 pageins=128803000 pageouts=2238600 loadavg1=6.48 loadavg5=4.23 loadavg15=3.55
+2026-09-18T10:54:41.853Z OS_SAMPLE_PROC_STATE idx=24 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:41.853Z OS_SAMPLE_TASK_FOR_PID_DENIED idx=24 pid=35007 kern_return=5 (expected without root/entitlement on modern macOS)
+2026-09-18T10:54:42.858Z OS_SAMPLE_SYSTEM_VM idx=25 freePages=5214 activePages=112142 inactivePages=110087 wirePages=101816 faults=4082933506 pageins=128803124 pageouts=2238610 loadavg1=6.12 loadavg5=4.19 loadavg15=3.54
+2026-09-18T10:54:42.858Z OS_SAMPLE_PROC_STATE idx=25 pid=35007 state=SRUN(runnable) nice=0 startTimeSec=1789728854
+2026-09-18T10:54:42.858Z OS_SAMPLE_TASK_FOR_PID_DEN

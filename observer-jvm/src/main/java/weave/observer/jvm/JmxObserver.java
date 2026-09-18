@@ -76,6 +76,7 @@ public final class JmxObserver {
             return;
         }
         long connectAttemptNanos = System.nanoTime() - connectAttemptStart;
+        //time spent connecting
         log("OBSERVER_CONNECTED connectLatencyMicros=" + (connectAttemptNanos / 1000));
 
         MBeanServerConnection mbsc = connector.getMBeanServerConnection();
@@ -83,7 +84,7 @@ public final class JmxObserver {
         // --- Test 1 material: enumerate what this JVM actually exposes ---
         describeOnce(mbsc);
 
-        // Self-monitoring beans (this observer's OWN JVM), used only for Test 4.
+        // Self-monitoring beans (this is myi observer's OWN JVM), used only for Test 4.
         ThreadMXBean selfThreads = ManagementFactory.getThreadMXBean();
         MemoryMXBean selfMemory = ManagementFactory.getMemoryMXBean();
         Random rng = new Random(7);
